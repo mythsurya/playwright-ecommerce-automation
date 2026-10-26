@@ -1,0 +1,20 @@
+{
+  "name": "playwright-ecommerce-automation",
+  "version": "1.0.0",
+  "description": "A scalable e-commerce test automation framework built using Playwright and TypeScript, following the Page Object Model (POM). Includes reusable test components, test data management, cross-browser testing, automated reports, screenshots, and end-to-end validation of shopping workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  }
+}
